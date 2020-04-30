@@ -1,0 +1,78 @@
+h1{
+    padding: 10px 15px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    line-height: 53px;
+    display: inline-block;
+    border: 1px solid #252525;
+    font: inherit;
+    font-size: 36px;
+}
+.who{
+    position: absolute;
+    top: -14px;
+    right: 0;
+    left: 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 100%;
+}
+th,td{
+  text-align: center;
+  padding: 20px;
+}
+th{
+  background: #b1e4f9;
+  color: #fff;
+} 
+.about-me-title{
+    text-align: center;
+    position: relative;
+}
+.subtitle{
+    padding: 0 10px; 
+    background:#fff;
+    font-size: 12px;
+}
+.about-me-content{
+    display: inline-block;
+    text-align: center;
+    padding: 170px;
+}
+.work-experience{
+    background:#f6f6f6;
+    padding: 80px;
+}
+.work-experience-title{
+    text-align: center;
+    position: relative;
+}
+.work-list-item{
+    display:flex; 
+    border-bottom:1px solid #ccc;
+    padding:40px;
+}
+.skill{
+    padding: 170px;
+}
+.skill-title{
+    text-align: center;
+    position: relative;
+}
+.skill-container{
+    text-align: center;
+    padding: 100px;
+}
+.skill-container-right{
+    display: inline-block;
+    text-align: center;
+    width:100%;
+}
+footer{
+    background: #587157;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: 999;
+}
