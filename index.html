@@ -145,8 +145,8 @@
                                 <span style="vertical-align: 5px;padding:0 10px;" >-</span>
                                 <span style="font-size: 32px;" >至今</span>
                               </div>
-                              <div  >
-                                  <h3>彩讯科技股份有限公司</h3>
+                              <div>
+                                  <h3 class="company-name" >彩讯科技股份有限公司</h3>
                               </div>
                           </div>
                           <div class="right" style="margin-left:100px;" >
@@ -172,7 +172,7 @@
                               <small>九月</small>
                             </div>
                             <div style="min-width: 317px;" >
-                                <h3>巴图鲁信息科技有限公司</h3>
+                                <h3 class="company-name" >巴图鲁信息科技有限公司</h3>
                             </div>
                         </div>
                         <div class="right" style="margin-left:100px;" >
@@ -270,6 +270,12 @@
     <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
     </script>
     <script type="text/javascript">
+
+      window.addEventListener("load", function (event) {
+          console.log("window 所有资源加载完成");
+      });
+
+
       $(document).ready(function () {
         // MathJax.Hub.Config({
         //   tex2jax: {

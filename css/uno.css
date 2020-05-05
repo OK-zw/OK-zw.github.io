@@ -1578,8 +1578,17 @@ input[type="tel"] {
   .right{
     margin-left: 0 !important ;
   }
-  .about-me-content,.skill{
+  .about-me-content,.skill,.work-experience,.skill-container{
     padding: 0!important;
+  }
+  .skill,.work-experience{
+    margin: 60px 0;
+  }
+  .skill-title{
+    margin-bottom: 30px;
+  }
+  .company-name{
+    font-size: 22px;
   }
 
 
@@ -1683,8 +1692,17 @@ input[type="tel"] {
   .right{
     margin-left: 0 !important ;
   }
-  .about-me-content,.skill{
+  .about-me-content,.skill,.work-experience,.skill-container{
     padding: 0!important;
+  }
+  .skill,.work-experience{
+    margin: 60px 0;
+  }
+  .skill-title{
+    margin-bottom: 30px;
+  }
+  .company-name{
+    font-size: 22px;
   }
 
 
