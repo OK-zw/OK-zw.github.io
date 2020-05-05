@@ -1553,14 +1553,26 @@ input[type="tel"] {
     padding: 0 !important;
   }
   .content-wrapper {
-    margin-left: 430px; 
+      margin-left: 430px; 
+      height: 100%;
+      overflow-y: auto;
   } }
 @media all and (max-width:1200px){
   .work-list-item{
     display: block!important;
   }
+  .content-wrapper {
+    margin-left: 430px; 
+    height: 100%;
+    overflow-y: auto;
+  }
 }
 @media all and (max-width: 1100px) {
+  .content-wrapper {
+    margin-left: 430px; 
+    height: 100%;
+    overflow-y: auto;
+  }
   .work-list-item{
     display: block!important;
   }
@@ -1585,6 +1597,11 @@ input[type="tel"] {
     margin-top: 5px;
     margin-left: 0; } }
 @media all and (max-width: 960px) {
+  .content-wrapper {
+    margin-left: 430px; 
+    height: 100%;
+    overflow-y: auto;
+  }
   .work-list-item{
     display: block !important ;
   }
@@ -1707,7 +1724,11 @@ input[type="tel"] {
     width: 100%;
     margin: 0 0 .4em 0; } }
 @media all and (max-width: 340px) {
-
+  .content-wrapper {
+    margin-left: 430px; 
+    height: 100%;
+    overflow-y: auto;
+  }
 
   .work-list-item{
     display: block !important ;
