@@ -1672,6 +1672,23 @@ input[type="tel"] {
     width: 100%;
     margin: 0 0 .4em 0; } }
 @media all and (max-width: 340px) {
+
+
+  .work-list-item{
+    display: block !important ;
+  }
+  .left-box{
+    margin-right: 0 !important ;
+  }
+  .right{
+    margin-left: 0 !important ;
+  }
+  .about-me-content,.skill{
+    padding: 0!important;
+  }
+
+
+
   .panel-main__inner {
     padding: 0 5%; }
 
