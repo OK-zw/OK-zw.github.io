@@ -1554,7 +1554,7 @@ input[type="tel"] {
   }
   .content-wrapper {
       margin-left: 430px; 
-      height: 100%;
+      height: 93%;
       overflow-y: auto;
   } }
 @media all and (max-width:1200px){
@@ -1563,14 +1563,14 @@ input[type="tel"] {
   }
   .content-wrapper {
     margin-left: 430px; 
-    height: 100%;
+    height: 93%;
     overflow-y: auto;
   }
 }
 @media all and (max-width: 1100px) {
   .content-wrapper {
     margin-left: 430px; 
-    height: 100%;
+    height: 93%;
     overflow-y: auto;
   }
   .work-list-item{
@@ -1599,7 +1599,7 @@ input[type="tel"] {
 @media all and (max-width: 960px) {
   .content-wrapper {
     margin-left: 430px; 
-    height: 100%;
+    height: 93%;
     overflow-y: auto;
   }
   .work-list-item{
