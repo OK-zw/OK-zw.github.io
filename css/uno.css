@@ -1578,7 +1578,16 @@ input[type="tel"] {
   .right{
     margin-left: 0 !important ;
   }
-  .about-me-content,.skill,.work-experience,.skill-container{
+  .about-me-content{
+    padding: 0!important;
+  }
+  .skill{
+    padding: 0!important;
+  }
+  .work-experience{
+    padding: 0!important;
+  }
+  .skill-container{
     padding: 0!important;
   }
   .skill,.work-experience{
@@ -1692,7 +1701,16 @@ input[type="tel"] {
   .right{
     margin-left: 0 !important ;
   }
-  .about-me-content,.skill,.work-experience,.skill-container{
+  .about-me-content{
+    padding: 0!important;
+  }
+  .skill{
+    padding: 0!important;
+  }
+  .work-experience{
+    padding: 0!important;
+  }
+  .skill-container{
     padding: 0!important;
   }
   .skill,.work-experience{
