@@ -1569,6 +1569,17 @@ input[type="tel"] {
     margin-top: 5px;
     margin-left: 0; } }
 @media all and (max-width: 960px) {
+  .work-list-item{
+    display: block;
+  }
+  .left-box{
+    margin-right: 0;
+  }
+  .right{
+    margin-left: 0;
+  }
+
+  
   .btn-mobile-menu {
     display: block; }
 
