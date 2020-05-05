@@ -1549,7 +1549,7 @@ input[type="tel"] {
 
 @media all and (min-width: 1300px) {
   .work-list-item{
-    display: block;
+    display: block!important;
   }
   .skill-container{
     padding: 0;
@@ -1559,7 +1559,7 @@ input[type="tel"] {
   } }
 @media all and (max-width: 1100px) {
   .work-list-item{
-    display: block;
+    display: block!important;
   }
   .skill-container{
     padding: 0;

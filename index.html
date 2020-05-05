@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="/css/index.css" ></link>
     <meta name="generator" content="Hexo 4.2.0">
   </head>
-  <body style="overflow-y: auto;background" >
+  <body style="overflow-y: auto;" >
 
     <div id="loading"><img src="images/loading.gif" id="loading" /></div>
 
@@ -278,7 +278,8 @@
       window.addEventListener("load", function (event) {
           console.log("window 所有资源加载完成");
           let load = document.getElementById('loading')
-          load.style.opacity = 0
+          load.style.zIndex = 0  
+          load.style.opacity = 0  
       });
 
 
