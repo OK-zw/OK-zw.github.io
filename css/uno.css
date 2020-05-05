@@ -1555,6 +1555,11 @@ input[type="tel"] {
   .content-wrapper {
     margin-left: 430px; 
   } }
+@media all and (max-width:1200px){
+  .work-list-item{
+    display: block!important;
+  }
+}
 @media all and (max-width: 1100px) {
   .work-list-item{
     display: block!important;
