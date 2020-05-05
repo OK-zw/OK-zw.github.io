@@ -1578,6 +1578,9 @@ input[type="tel"] {
   .right{
     margin-left: 0 !important ;
   }
+  .about-me-content,.skill{
+    padding: 0!important;
+  }
 
 
   .btn-mobile-menu {
