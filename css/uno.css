@@ -1547,10 +1547,7 @@ input[type="tel"] {
   input[type="tel"]:-ms-input-placeholder {
     color: #cccccc; }
 
-@media all and (min-width: 1300px) {
-  .work-list-item{
-    display: block!important;
-  }
+@media all and (min-width: 1300px) { 
   .skill-container{
     margin-top: 40px;
     padding: 0 !important;
