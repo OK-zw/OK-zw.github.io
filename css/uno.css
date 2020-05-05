@@ -1570,16 +1570,16 @@ input[type="tel"] {
     margin-left: 0; } }
 @media all and (max-width: 960px) {
   .work-list-item{
-    display: block;
+    display: block !important ;
   }
   .left-box{
-    margin-right: 0;
+    margin-right: 0 !important ;
   }
   .right{
-    margin-left: 0;
+    margin-left: 0 !important ;
   }
 
-  
+
   .btn-mobile-menu {
     display: block; }
 
