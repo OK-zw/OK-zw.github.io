@@ -1548,10 +1548,22 @@ input[type="tel"] {
     color: #cccccc; }
 
 @media all and (min-width: 1300px) {
+  .work-list-item{
+    display: block;
+  }
+  .skill-container{
+    padding: 0;
+  }
   .content-wrapper {
     margin-left: 430px; 
   } }
 @media all and (max-width: 1100px) {
+  .work-list-item{
+    display: block;
+  }
+  .skill-container{
+    padding: 0;
+  }
   .panel-cover__logo {
     width: 70px; }
 

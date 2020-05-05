@@ -50,7 +50,7 @@ th{
 .work-list-item{
     display:flex; 
     border-bottom:1px solid #ccc;
-    padding:40px;
+    padding: 30px;
 }
 .skill{
     padding: 170px;
