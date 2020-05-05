@@ -1552,7 +1552,8 @@ input[type="tel"] {
     display: block!important;
   }
   .skill-container{
-    padding: 0;
+    margin-top: 40px;
+    padding: 0 !important;
   }
   .content-wrapper {
     margin-left: 430px; 
@@ -1562,7 +1563,8 @@ input[type="tel"] {
     display: block!important;
   }
   .skill-container{
-    padding: 0;
+    margin-top: 40px;
+    padding: 0 !important;
   }
   .panel-cover__logo {
     width: 70px; }
