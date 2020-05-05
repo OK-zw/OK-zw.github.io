@@ -8,7 +8,7 @@ h1{
     font: inherit;
     font-size: 36px;
 }
-.who{
+.subtitle{
     position: absolute;
     top: -14px;
     right: 0;
@@ -16,6 +16,9 @@ h1{
     letter-spacing: 1px;
     text-transform: uppercase;
     width: 100%;
+    padding: 0 10px; 
+    background:#fff;
+    font-size: 12px;
 }
 th,td{
   text-align: center;
@@ -28,12 +31,7 @@ th{
 .about-me-title{
     text-align: center;
     position: relative;
-}
-.subtitle{
-    padding: 0 10px; 
-    background:#fff;
-    font-size: 12px;
-}
+} 
 .about-me-content{
     display: inline-block;
     text-align: center;
