@@ -94,5 +94,11 @@ footer{
     position: absolute;
     z-index: 2001;
 }
-    
+
+.go-top{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    display: none;
+}
      
