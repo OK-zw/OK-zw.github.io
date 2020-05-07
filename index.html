@@ -272,9 +272,9 @@
 
 
       content_wrapper.addEventListener('scroll', () => {
-        console.log('document.documentElement.scrollTop', document.documentElement.scrollTop)
+        console.log('document.  .scrollTop', document.documentElement.scrollTop)
         console.log('document.body.scrollTop', document.body.scrollTop)
-        if (content_wrapper > 1700) {
+        if (content_wrapper.scrollTop > 1700) {
           go_top.style.display = "block";
         }else {
           go_top.style.display = "none";
