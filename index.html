@@ -269,25 +269,19 @@
     <script type="text/javascript">
       let go_top = document.getElementsByClassName("go-top")[0]
       let content_wrapper = document.getElementsByClassName("content-wrapper")[0]
-
-
-      content_wrapper.addEventListener('scroll', () => {
-        console.log('document.  .scrollTop', document.documentElement.scrollTop)
-        console.log('document.body.scrollTop', document.body.scrollTop)
+      content_wrapper.addEventListener('scroll', () => { 
         if (content_wrapper.scrollTop > 1700) {
           go_top.style.display = "block";
         }else {
           go_top.style.display = "none";
         }
       })
-
       go_top.onclick = function () { 
-          window.scrollTo({
-              top: 0,
-              behavior: 'smooth'
-            });
+        content_wrapper.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+          });
       }
-
       $(document).ready(function () {
         // MathJax.Hub.Config({
         //   tex2jax: {
